@@ -44,5 +44,5 @@
     "lint-staged": "^8.1.5",
     "prettier": "^1.17.0"
   },
-  "homepage": "https://ghostnoise.github.io/goit-react-hw-01-components/"
+  "homepage": "https://ghostnoise.github.io/goit-react-hw-02-bank-account/"
 }

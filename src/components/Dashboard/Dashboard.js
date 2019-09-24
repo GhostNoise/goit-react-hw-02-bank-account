@@ -9,7 +9,7 @@ export default class Dashboard extends React.Component {
     super();
     this.state = {
       transactions: [],
-      balance: 5000,
+      balance: 0,
     };
   }
 

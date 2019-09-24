@@ -53,7 +53,7 @@ export default class Controls extends Component {
       return;
     }
 
-    if (input === '' || Number(input) < 0) {
+    if (input === '' || Number(input) < 0 || input === '0') {
       toast('Введите сумму для проведения операции!');
       this.setState({ input: '' });
       return;
