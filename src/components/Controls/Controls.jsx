@@ -13,12 +13,9 @@ export default class Controls extends Component {
     balance: PropTypes.number.isRequired,
   };
 
-  constructor(props) {
-    super(props);
-    this.state = {
-      input: '',
-    };
-  }
+  state = {
+    input: '',
+  };
 
   handleInput = ({ target }) => {
     const { value } = target;

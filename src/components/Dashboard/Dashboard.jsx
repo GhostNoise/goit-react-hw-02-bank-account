@@ -5,13 +5,10 @@ import TransactionHistory from '../TransactionHistory/TransactionHistory';
 import styles from './Dashboard.module.css';
 
 export default class Dashboard extends React.Component {
-  constructor() {
-    super();
-    this.state = {
-      transactions: [],
-      balance: 0,
-    };
-  }
+  state = {
+    transactions: [],
+    balance: 0,
+  };
 
   handleTransaction = newTransaction => {
     this.setState(prevState => ({
